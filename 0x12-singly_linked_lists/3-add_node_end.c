@@ -26,8 +26,8 @@ new->str = strdup(str);
 new->len = len;
 new->next = NULL;
 
+if (*head == NULL)
 {
-if (*head ==);
 *head = new;
 return (new);
 }
@@ -39,4 +39,3 @@ temp->next = new;
 
 return (new);
 }
-
